@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { OrderformComponent } from './orderform/orderform.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { OrderformComponent } from './orderform/orderform.component';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    OrderformComponent
+    OrderformComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
